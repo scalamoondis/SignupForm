@@ -1,0 +1,91 @@
+
+img {
+
+    width: 200px;
+    height: 100px;
+
+
+}
+
+
+
+
+.primarypagewrapper {
+
+    display: flex;
+
+
+
+
+}
+
+
+.leftsidecontainer {
+
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    width: 40%;
+    height: 100vh;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+.logoandname {
+
+    
+    border: 5px solid brown;
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoimage {
+
+
+    border: 5px solid salmon;
+}
+
+
+.logoname {
+
+    border: 5px solid coral;
+}
+
+
+
+.copyrightspan {
+
+    
+   text-align: center;
+    border: 5px solid green;
+}
+
+
+.rightsidecontainer {
+
+    height: 100vh;
+    width: 60%;
+    border: 5px solid yellowgreen;
+
+}
+
+.mottocaption {
+
+    border: 5px solid pink;
+    height: 37.5%;
+
+}
+
+
+.inputfieldscontainer {
+
+    border: 5px solid purple;
+    height: 25%;
+
+}
