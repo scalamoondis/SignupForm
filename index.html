@@ -29,41 +29,47 @@
 
             <div class="mottocaption">
                 <p class="largermottopara">
-                    This is going to be the larger text for all the 
-                    motto text, so because of that, I have to fill this space with text.
+                    So what'll it be... yeah yeah yeah, or, <span class="italics">yea yea yea</span> ?
                 </p>
 
-                <p class="smallermottopara">This is going to be the smaller text for the motto!</p>
+                <p class="smallermottopara">Yeah, yeah, yeah... <span class="italics">yea yea yea</span>. Here is where we would
+                    put our larger sized explanation as to why you, indeed, would need a yeah, yeah yeah, or, perhaps,
+                    a <span class="italics">yea yea yea</span>.
+                </p>
             </div>
 
             <div class="inputfieldscontainer">
-                <form class="formform">
+                <form class="formform" id="formerform">
 
                     <p>
                         <label for="firstname">
-                            <span>First name </span>
+                            <span>First name: </span>
                         </label>
+                        <br>
                         <input type="text" id="firstname" name="firstname" required />
                     </p>
 
                     <p>
                         <label for="lastname">
-                            <span>Last name </span>
+                            <span>Last name: </span>
                         </label>
+                        <br>
                         <input type="text" id="lastname" name="lastname" required />
                     </p>
 
                     <p>
                         <label for="email">
-                            <span>Email </span>
+                            <span>Email: </span>
                         </label>
+                        <br>
                         <input type="email" id="email" name="email" required />
                     </p>
 
                     <p>
                         <label for="telephone">
-                            <span>Phone number </span>
+                            <span>Phone number: </span>
                         </label>
+                        <br>
                         <input type="tel" id="telephone" name="telephone" required />
 
                     </p>
@@ -71,15 +77,17 @@
 
                     <p>
                         <label for="password">
-                            <span>Password </span>
+                            <span>Password: </span>
                         </label>
+                        <br>
                         <input type="password" id="password" name="password" required />
                     </p>
 
                     <p>
                         <label for="confirmpassword">
-                            <span>Confirm Password </span>
+                            <span>Confirm Password: </span>
                         </label>
+                        <br>
                         <input type="password" id="confirmpassword" name="confirmpassword" required/>
                     </p>
 
@@ -90,9 +98,9 @@
 
             <div class="submitbuttonandlogincontainer">
 
-                <button type="submit">Create Account</button>
+                <button type="submit" form="formerform" class="submitter">Create Account</button>
 
-                <p>Already have an account?<span>Log in here!</span></p>
+                <p class="belowbuttontext">Already have an account?<span class="logintext"> Log in here!</span></p>
             </div>
 
 

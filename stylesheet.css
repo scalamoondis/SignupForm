@@ -1,4 +1,20 @@
 
+@font-face {
+    font-family: coolFont;
+    src: url(Norse-Bold.otf);
+}
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
 img {
 
     width: 200px;
@@ -24,10 +40,11 @@ img {
 
     display: flex;
     flex-direction: column;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     width: 40%;
     height: 100vh;
     justify-content: space-between;
+    background-image: url(bettereggmanpicture.jpeg);
     
     
 
@@ -37,24 +54,30 @@ img {
 .logoandname {
 
     
-    border: 5px solid brown;
-    margin-top: 155px;
+    
+    margin-top: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #fff;
+    opacity: .7;
 
 }
 
 .logoimage {
 
 
-    border: 5px solid salmon;
+    /* border: 5px solid salmon; */
 }
 
 
 .logoname {
 
-    border: 5px solid coral;
+    /* border: 5px solid coral; */
+    margin-left: 5px;
+    font-family: coolFont;
+    font-size: x-large;
+
 }
 
 
@@ -63,7 +86,10 @@ img {
 
     
    text-align: center;
-    border: 5px solid green;
+    /* border: 5px solid green; */
+    font-family: coolFont;
+    color: #fff;
+
 }
 
 
@@ -71,21 +97,142 @@ img {
 
     height: 100vh;
     width: 60%;
-    border: 5px solid yellowgreen;
+    /* border: 5px solid yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 
 }
 
 .mottocaption {
 
-    border: 5px solid pink;
+    /* border: 5px solid pink; */
     height: 37.5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-start;
+    background-color:  #ffd9b3;
 
 }
 
 
+.smallermottopara {
+
+    margin-left: 25px;
+    font-family: coolFont;
+    width: 65%;
+    font-size: x-large;
+
+
+}
+
+
+.largermottopara {
+
+    margin-left: 25px;
+    font-family: coolFont;
+    font-size: large;
+
+
+}
+
+.italics {
+
+    font-style: italic;
+}
+
+
+
+
 .inputfieldscontainer {
 
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     height: 25%;
+    background-color :#ffe5cc;
+    box-shadow: 0 22px 12px 0px gray, 0 -5px 5px -5px gray;
+
+}
+
+
+.formform {
+
+
+    height: 90%;
+    /* border: 5px solid cyan; */
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 100px;
+    
+
+    
+    
+    
+    
+
+}
+
+
+form > p { 
+
+    margin-left: 25px;
+    
+
+
+}
+
+label {
+
+    font-family: coolFont;
+
+
+
+}
+
+
+
+
+.submitbuttonandlogincontainer {
+
+
+    /* border: 5px solid green; */
+    background-color: #ffd9b3;
+    height: 37.5%;
+    margin-top: 1px;
+    
+
+}
+
+
+.submitter {
+
+
+    font-size: large;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 8px;
+    font-family: coolFont;
+    font-size: x-large;
+    
+
+}
+
+
+.belowbuttontext {
+
+    margin-left: 25px;
+    font-family: coolFont;
+    font-size: large;
+
+
+}
+
+
+.logintext {
+
+    color: crimson;
+
 
 }
